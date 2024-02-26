@@ -85,23 +85,15 @@ export default function Home() {
                             <NavigationImage key={src} src={src} alt={alt} path={path} title={title}/>
                         ))}
                     </Row>
-                    <Space direction="vertical" size="middle"
+                   
+                </Card>
+            </Col>
+             <Space direction="vertical" size="middle"
                            style={{display: 'flex', justifyContent: 'center', width: '100%', marginTop: 24}}>
                         <Button block icon={<GithubOutlined/>} size="large" type="link"
                                 style={{marginTop: '16px'}}
                                 onClick={() => window.open('https://github.com/wxtsky/addrtracker', '_blank')}> 作者GitHub</Button>
-{/*                         <Button block icon={<MessageOutlined/>} size="large" type="primary"
-                                style={{marginTop: '16px'}}
-                                onClick={showModal}>提交反馈</Button> */}
                     </Space>
-                </Card>
-            </Col>
-{/*             <Modal title="提交反馈" open={isModalVisible} onOk={handleOk} onCancel={handleCancel} style={{top: 20}}>
-                <Input placeholder="请输入反馈标题" value={feedbackTitle}
-                       onChange={(e) => setFeedbackTitle(e.target.value)} style={{marginBottom: 8}}/>
-                <TextArea placeholder="请输入您的反馈内容..." value={feedbackContent}
-                          onChange={(e) => setFeedbackContent(e.target.value)} rows={4} style={{marginBottom: 8}}/>
-            </Modal> */}
         </Row>
     );
 }
