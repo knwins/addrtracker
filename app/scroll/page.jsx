@@ -163,7 +163,7 @@ const App = () => {
                     dataIndex: 'scroll_last_tx',
                     key: 'scroll_last_tx',
                     align: 'right',
-                    width: 90,
+                    width: 110,
                 },
                 {
                     title: 'VOL(E)',
