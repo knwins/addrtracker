@@ -192,7 +192,7 @@ const App = () => {
                     dataIndex: 'era_last_tx',
                     key: 'era_last_tx',
                     align: 'right',
-                    width: 90,
+                    width: 110,
                 },
                 {
                     title: 'VOL(E)',
